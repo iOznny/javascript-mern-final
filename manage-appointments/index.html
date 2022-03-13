@@ -15,53 +15,53 @@
         <div class="container mt-5 p-5">
             <div id="contenido" class="row">
                 <div class="col-md-6 agregar-cita">
-                    <form id="nueva-cita">
+                    <form data-site="form" id="nueva-cita">
                         <legend class="mb-4">Datos del Paciente</legend>
                         
                         <div class="form-group row">
                             <label class="col-sm-4 col-lg-4 col-form-label">Nombre Mascota:</label>
                             <div class="col-sm-8 col-lg-8">
-                                <input type="text" id="pet" name="pet" class="form-control" placeholder="Nombre Mascota">
+                                <input type="text" data-cy="pet" id="pet" name="pet" class="form-control" placeholder="Nombre Mascota">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label class="col-sm-4 col-lg-4 col-form-label">Propietario:</label>
                             <div class="col-sm-8 col-lg-8">
-                                <input type="text" id="owner" name="owner" class="form-control"  placeholder="Nombre Dueño de la Mascota">
+                                <input type="text" data-cy="owner" id="owner" name="owner" class="form-control"  placeholder="Nombre Dueño de la Mascota">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label class="col-sm-4 col-lg-4 col-form-label">Teléfono:</label>
                             <div class="col-sm-8 col-lg-8">
-                                <input type="tel" id="phone" name="phone" class="form-control"  placeholder="Número de Teléfono">
+                                <input type="tel" data-cy="phone" id="phone" name="phone" class="form-control"  placeholder="Número de Teléfono">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label class="col-sm-4 col-lg-4 col-form-label">Fecha:</label>
                             <div class="col-sm-8 col-lg-8">
-                                <input type="date" id="date" name="date" class="form-control">
+                                <input type="date" data-cy="date" id="date" name="date" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label class="col-sm-4 col-lg-4 col-form-label">Hora:</label>
                             <div class="col-sm-8 col-lg-8">
-                                <input type="time" id="hour" name="hour" class="form-control">
+                                <input type="time" data-cy="hour" id="hour" name="hour" class="form-control">
                             </div>
                         </div>
 
                         <div class="form-group row">
                             <label class="col-sm-4 col-lg-4 col-form-label">Sintomas:</label>
                             <div class="col-sm-8 col-lg-8">
-                                <textarea id="symptom" name="symptom" class="form-control"></textarea>
+                                <textarea id="symptom" data-cy="symptom" name="symptom" class="form-control"></textarea>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <button type="submit" class="btn btn-success w-100 d-block">Crear Cita</button>
+                            <button type="submit" data-cy="button" class="btn btn-success w-100 d-block">Crear Cita</button>
                         </div>
                     </form>
                 </div>
