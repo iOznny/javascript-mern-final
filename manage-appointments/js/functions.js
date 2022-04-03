@@ -8,7 +8,7 @@ import {
     hourInput, 
     symptomInput, 
     form 
-} from './selectors';
+} from '../js/selectors.js';
 
 // Initialization Class
 const quote = new Quote();
