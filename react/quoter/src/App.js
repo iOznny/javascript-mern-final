@@ -12,6 +12,7 @@ function App() {
   const [limit, setLimit] = useState('');
   const [total, setTotal] = useState(0);
 
+  // Carga Condicional de Componentes
   let component;
   if (total === 0) {
     component = <Message />;
