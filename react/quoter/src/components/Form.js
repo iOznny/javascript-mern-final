@@ -9,7 +9,6 @@ const Form = (props) => {
         setAmount, 
         limit, 
         setLimit,
-        total,
         setTotal,
         setLoading
     } = props;

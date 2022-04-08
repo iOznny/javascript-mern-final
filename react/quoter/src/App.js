@@ -35,7 +35,6 @@ function App() {
           setAmount={ setAmount }
           limit={ limit }
           setLimit={ setLimit }
-          total={ total }
           setTotal={ setTotal }
           setLoading={ setLoading }
         />
