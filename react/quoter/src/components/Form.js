@@ -10,7 +10,8 @@ const Form = (props) => {
         limit, 
         setLimit,
         total,
-        setTotal
+        setTotal,
+        setLoading
     } = props;
 
     // State
@@ -29,9 +30,13 @@ const Form = (props) => {
         // Delete previous error
         setError(false);
 
-        // Make a quote
-        const total = calculateTotal(amount, limit);
-        setTotal(total);
+        setLoading(true);
+        setTimeout(() => {
+            // Make a quote
+            const total = calculateTotal(amount, limit);
+            setTotal(total);            
+            setLoading(false);
+        }, 3000);
     }
 
     return (
